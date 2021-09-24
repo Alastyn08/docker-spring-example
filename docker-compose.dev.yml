@@ -1,0 +1,9 @@
+version: '3.8'
+services:
+  docker-spring:
+    build:
+      context: .
+      target: development
+    volumes:
+      - ./:/app
+
